@@ -1,0 +1,14 @@
+@import './abstract/variables.scss';
+@import './layout/navbar.scss';
+@import './layout/footer';
+@import './layout/modal';
+@import './layout/spacer';
+@import './page/index';
+@import './page/form';
+@import './page/report';
+@import './page/table';
+
+* {
+    margin: 0;
+    padding: 0;
+}

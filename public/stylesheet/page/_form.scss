@@ -1,0 +1,203 @@
+.form-container-container {
+  background-color: $background-form;
+  border-radius: 5%;
+  padding: 20px 0;
+
+  .tittle-form {
+    color: $text-form;
+    text-align: center;
+    border-bottom: 1px solid $border;
+    padding: 20px 0;
+  }
+
+  .form-container {
+    padding: 30px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      .input-form {
+        background-color: $background-input;
+        padding: 10px 0;
+        margin: 20px 0;
+        border: 0;
+        border-bottom: 1px solid $border-button;
+        width: 335px;
+        transition: padding-left 0.5s;
+      }
+
+      .input-form {
+        background-color: $background-input;
+        padding: 10px 0;
+        margin: 20px 0;
+        border: 0;
+        border-bottom: 1px solid $border-button;
+        width: 335px;
+        transition: padding-left 0.5s;
+      }
+
+      .input-form:focus {
+        padding-left: 10px;
+      }
+
+      .button-form {
+        color: $text-button;
+        background-color: $background-button;
+        border: 1px solid $border-button;
+        margin: 10px 0;
+        padding: 8px 10px;
+        width: 100%;
+        align-self: center;
+        cursor: pointer;
+        border-radius: 20px;
+
+      }
+
+      .button-form:hover {
+        border-color: $background-button-hover;
+        ;
+        color: $text-button-hover;
+        background-color: $background-button-hover;
+      }
+
+      a {
+        margin: 10px 0;
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      p {
+        margin: 10px 0;
+        align-self: center;
+
+        a {
+          color: rgb(14, 127, 248);
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.form-container {
+  padding: 30px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .input-form {
+      background-color: $background-input;
+      padding: 10px 0;
+      margin: 20px 0;
+      border: 0;
+      border-bottom: 1px solid $border-button;
+      width: 335px;
+      transition: padding-left 0.5s;
+    }
+
+    .input-form {
+      background-color: $background-input;
+      padding: 10px 0;
+      margin: 20px 0;
+      border: 0;
+      border-bottom: 1px solid $border-button;
+      width: 335px;
+      transition: padding-left 0.5s;
+    }
+
+    .input-form:focus {
+      padding-left: 10px;
+    }
+
+    .button-form {
+      color: $text-button;
+      background-color: $background-button;
+      border: 1px solid $border-button;
+      margin: 10px 0;
+      padding: 8px 10px;
+      width: 100%;
+      align-self: center;
+      cursor: pointer;
+      border-radius: 20px;
+
+    }
+
+    .button-form:hover {
+      border-color: $background-button-hover;
+      ;
+      color: $text-button-hover;
+      background-color: $background-button-hover;
+    }
+
+    a {
+      margin: 10px 0;
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 10px 0;
+      align-self: center;
+
+      a {
+        color: rgb(14, 127, 248);
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+    #file-upload {
+      display: none;
+    }
+
+    .custom-file-upload {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+     
+      background: $second-color;
+
+      border: 0;
+      padding: 8px 10px;
+
+      margin: 5px 0;
+
+      text-align: center;
+      color: black;
+      font-size: 12px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 300ms ease;
+      cursor: pointer;
+      border-radius: 5px;
+      min-width: 95%;
+      
+    }
+
+    .custom-file-upload:hover,
+    .custom-file-upload:active,
+    .custom-file-upload:focus {
+      background: $background-button-hover;
+      color: white;
+    }
+
+
+  }
+}

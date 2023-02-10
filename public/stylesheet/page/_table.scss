@@ -1,0 +1,40 @@
+.table-container {
+  margin-top: 50px;
+  height: 350px;
+
+  table {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+
+    tbody {
+      tr {
+        border: 4px black solid;
+
+        td {
+          cursor: pointer;
+          padding: 5px 15px;
+
+          button {
+            font-size: 12px;
+            width: 80px;
+            cursor: pointer;
+          }
+        }
+
+        .link {
+          color: $text-navbar;
+        }
+
+        .link:hover {
+          text-decoration: underline;
+        }
+
+      }
+
+      tr:hover {
+        background-color: $second-color;
+      }
+    }
+  }
+
+}

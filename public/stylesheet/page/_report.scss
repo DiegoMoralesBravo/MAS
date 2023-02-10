@@ -1,0 +1,56 @@
+.preview-image {
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .preview-micro {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 384px;
+    height: 235px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    margin-bottom: 50px;
+
+    img {
+      border: black 1px solid;
+      max-height: 280px;
+      max-width: 384px;
+    }
+  }
+
+  .preview-chart {
+    background-color: $second-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 384px;
+    height: 235px;
+    border: solid black 1px;
+
+    img {
+      border: black 1px solid;
+      max-height: 235px;
+      max-width: 384px;
+    }
+  }
+
+  .preview-image-report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $second-color;
+    height: 480px;
+    width: 450px;
+
+    img {
+      border: black 1px solid;
+      max-height: 480px;
+      max-width: 480px;
+    }
+  }
+}
