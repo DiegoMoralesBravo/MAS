@@ -5,7 +5,7 @@ export const What = () => {
     <>
       <div className='index-container grey-container'>
         <div className='image-container'>
-          <img src="./image/sem.png" alt="" />
+          <img src="/image/sem.png" alt="" />
         </div>
         <div className='data-container'>
           <div className='text-container'>

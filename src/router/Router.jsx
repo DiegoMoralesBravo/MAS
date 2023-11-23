@@ -19,6 +19,7 @@ export const Router = () => {
           <>
             <Route path="/report" element={<Report />} />
             <Route path="/history" element={<History />} />
+            <Route path="/plants" element={<History />} />
           </>
         ) :
           ''

@@ -16,7 +16,7 @@ export const How = () => {
 
         </div>
         <div className='image-container-mid'>
-          <img className='image-mid' src="./image/micro/4.jpg" alt="" />
+          <img className='image-mid' src="/image/micro/4.jpg" alt="" />
         </div>
       </div>
     </>
